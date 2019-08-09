@@ -25,5 +25,35 @@ namespace Laboratorio01.Card
         public SpecialCard SpecialLongRangeCards { get => specialLongRangeCards; }
         public List<SpecialCard> CaptainCards { get => captainCards; }
         public List<SpecialCard> WeatherCards { get => weatherCards; }
+
+        public void AddCombatCard(int playerID, CombatCard combatCard) {
+
+        }
+        public void AddSpecialCard(int playerID, SpecialCard specialCard) {
+
+        }
+        public void DestroyCombatCards() {
+
+        }
+        public void DestroySpecialCards() {
+
+        }
+        public int GetMeleeAttackPoints() {
+            CombatCard combatCard = new CombatCard();
+            return combatCard.AttackPoints;
+        }
+        public int RangeAttackPoints() {
+            CombatCard combatCard = new CombatCard();
+            return combatCard.AttackPoints;
+        }
+
+        public int LongRangeAttackPoints() {
+            CombatCard combatCard = new CombatCard();
+            return combatCard.AttackPoints;
+        }
+
+
+
+
     }
 }

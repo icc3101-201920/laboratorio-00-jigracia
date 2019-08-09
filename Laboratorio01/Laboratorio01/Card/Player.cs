@@ -8,6 +8,7 @@ namespace Laboratorio01.Card
 {
     public class Player
     {
+        private int playerID;
         private int lifPoints;
         private int attackPoints;
         private Deck deck;
@@ -21,6 +22,7 @@ namespace Laboratorio01.Card
         public Hand Hand { get => hand; set => hand = value; }
         public Board Board { get => board; set => board = value; }
         public SpecialCard Captain { get => captain; set => captain = value; }
+        public int PlayerID { get => playerID; set => playerID = value; }
 
         public void DrawCard() {
 

@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card\Board.cs" />
+    <Compile Include="Card\CombatCard.cs" />
+    <Compile Include="Card\Deck.cs" />
+    <Compile Include="Card\Game.cs" />
+    <Compile Include="Card\Hand.cs" />
+    <Compile Include="Card\Player.cs" />
+    <Compile Include="Card\SpecialCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
